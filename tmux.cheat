@@ -1,0 +1,25 @@
+% tmux
+
+# Start a new tmux session
+tmux new -s <session_name>
+
+# Attach to an existing session
+tmux attach -t <session_name>
+
+# List all sessions
+tmux ls
+
+# Detach from the current session
+^b d
+
+# Copy Paste Mode
+^b [ Enter copy mode
+^b space Start selection
+^b w Exit Copy mode and move to command mode
+^b enter Copy selection
+^b ] Paste from buffer
+
+# Move between panes
+^b o Move to the next pane
+^b ; Move to the last active pane
+^b arrow_key Move to the pane in the direction of the arrow key

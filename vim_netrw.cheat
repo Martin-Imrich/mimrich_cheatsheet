@@ -1,0 +1,20 @@
+% vim, netrw, browse, explore
+
+# Start
+vim .
+
+# Quit
+vim <never_quit_on_vim>
+
+# Explore, Vertical Explore
+:Explore :E
+:Vexplore :Vex
+:Sexplore :Sex
+
+# Move between open splits
+^w h  " Move to the left split
+^w j  " Move to the split below
+^w k  " Move to the split above
+^w l  " Move to the right split
+
+
